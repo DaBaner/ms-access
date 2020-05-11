@@ -22,7 +22,7 @@
     <van-cell title="刊物介绍" is-link value class="text-left margin-bottom" to="about"></van-cell>
     <div class="form-data">
       <h2>订阅申请</h2>
-      <van-field v-model="formData.name" type="tel" label="姓名" placeholder="请输入学生姓名"></van-field>
+      <van-field v-model="formData.name" label="姓名" placeholder="请输入学生姓名"></van-field>
       <van-field v-model="formData.tel" type="tel" label="电话" placeholder="请输入手机号码"></van-field>
       <van-field v-model="formData.area" type label="地区" placeholder="请选择地区" @click="showPick(0)" readonly></van-field>
       <van-field v-model="formData.school" type label="学校" placeholder="请选择学校" @click="showPick(1)" readonly></van-field>
